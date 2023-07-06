@@ -175,3 +175,56 @@ li {
   bottom: 90px;
   right: 0;
 }
+
+/* ---------------- section 2 ----------------  */
+
+.trends {
+  display: flex;
+  justify-content: space-between;
+  background: url(./images/SeekPng.png), #23675a;
+  padding: 10px 120px;
+  border-radius: 40px 40px 0 0;
+  margin: -40px 80px 0 80px;
+}
+.trending-block {
+  display: flex;
+  align-items: center;
+}
+
+.trending-image {
+  z-index: 2;
+}
+
+.trending-content {
+  background-color: white;
+  border-radius: 20px;
+  padding: 17px 9px 17px 41px;
+  margin-left: -38px;
+  height: fit-content;
+}
+
+.content-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.stars-and-price {
+  display: flex;
+  gap: 31px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.price {
+  margin-top: 10px;
+}
+
+button {
+  all: unset;
+  color: black;
+  background: linear-gradient(101deg, #ffd154 0%, #ffc936 99.48%);
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border-radius: 17.5px;
+}
