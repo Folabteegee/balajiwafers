@@ -13,6 +13,8 @@
 body {
   background-color: #f7efed;
   font-family: "Agdasima", sans-serif;
+  max-width: 1840px;
+  margin: 0 auto;
 }
 
 a,
@@ -227,4 +229,9 @@ button {
   font-size: 1.5rem;
   padding: 1rem 2rem;
   border-radius: 17.5px;
+}
+.phocus {
+  position: absolute;
+  margin: -180px -20px;
+  z-index: -2;
 }
